@@ -26,7 +26,7 @@ var whileLoop = (n) => {
     
 }
 
-var doWhileLoop = num => {
+var doWhileLoop = n => {
   do {
     console.log(n)
     n--
