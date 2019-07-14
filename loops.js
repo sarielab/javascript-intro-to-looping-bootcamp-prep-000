@@ -12,7 +12,7 @@
 const forLoop = (array) => {
   const newArray = []
   const arrLen = array.length
-  for(let i = 0; i< arrLen; i++) {
+  for(let i = 0; i< 6; i++) {
     
   }
   return newArray
