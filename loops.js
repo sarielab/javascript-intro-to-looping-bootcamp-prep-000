@@ -1,4 +1,4 @@
-const forLoop = array => {
+const forLoop = (array) => {
   
 }
 
