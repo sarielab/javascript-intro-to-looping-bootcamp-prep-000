@@ -26,18 +26,14 @@ var whileLoop = (n) => {
     
 }
 
+var doWhileLoop = num => {
+  do {
+    console.log(n)
+    n--
+  } while (n > 0)
+}
+
 /*
-  describe('whileLoop(n)', () => {
-    it('counts down from n to 0', () => {
-      const spy = chai.spy.on(console, 'log')
-      const n = Math.floor(Math.random() * 100)
-
-      expect(whileLoop(n)).to.equal('done')
-      expect(spy).to.have.been.called.exactly(n)
-
-      console.log.reset()
-    })
-  })
 
   describe('doWhileLoop(num)', () => {
     it ('console logs "I run once regardless." 1 time when passed an integer of 0 as a parameter.', () => {
