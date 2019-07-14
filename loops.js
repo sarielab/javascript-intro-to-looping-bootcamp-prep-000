@@ -8,7 +8,6 @@
 
 //   return [array, t]
 // }
-
 var forLoop = (array) => {
   const newArray = [...array]
   for(let i = 0; i< 25; i++) {
@@ -17,22 +16,17 @@ var forLoop = (array) => {
   return newArray
 }
 
+var whileLoop = (n) => {
+  while(n >= 0) {
+    console.log(n)
+    return n--
+  }
+  
+  return 'done'
+    
+}
+
 /*
-describe('forLoop(array)', () => {
-    it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
-      const [array, t] = makeArray()
-      const strangeArray = forLoop(array)
-      const testArray = strangeArray.slice(array.length)
-
-      let first = "I am 1 strange loop."
-      let rest = "I am 24 strange loops."
-
-      expect(strangeArray[11]).to.equal(first)
-      expect(strangeArray[34]).to.equal(rest)
-      expect(strangeArray.length).to.equal(t + 25)
-    })
-  })
-
   describe('whileLoop(n)', () => {
     it('counts down from n to 0', () => {
       const spy = chai.spy.on(console, 'log')
