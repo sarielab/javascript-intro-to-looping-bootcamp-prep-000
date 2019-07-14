@@ -12,7 +12,7 @@
 var forLoop = (array) => {
   const newArray = []
   const arrLen = array.length
-  for(let i = 0; i< 25; i++) {
+  for(let i = -10; i< 15; i++) {
     newArray.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`)
   }
   return newArray
