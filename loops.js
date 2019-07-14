@@ -9,7 +9,7 @@
 //   return [array, t]
 // }
 
-const forLoop = (array) => {
+var forLoop = (array) => {
   const newArray = []
   const arrLen = array.length
   for(let i = 0; i< 25; i++) {
