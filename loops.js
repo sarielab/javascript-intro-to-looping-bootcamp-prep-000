@@ -10,6 +10,8 @@
 // }
 
 const forLoop = (array) => {
+  const newArray = [] 
+  for(let i = 0; i< )
   return newArray
 }
 
