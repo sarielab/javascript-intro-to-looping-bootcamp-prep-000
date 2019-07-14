@@ -1,3 +1,7 @@
+const forLoop = array => {
+  
+}
+
 /*
 describe('forLoop(array)', () => {
     it('adds `"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."` to an array 25 times', () => {
