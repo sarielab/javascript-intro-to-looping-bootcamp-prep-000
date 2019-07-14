@@ -19,7 +19,7 @@ var forLoop = (array) => {
 var whileLoop = (n) => {
   while(n > 0) {
     console.log(n)
-    return n--
+    n--
   }
   
   return 'done'
